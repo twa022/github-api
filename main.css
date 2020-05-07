@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+	font-size: 1.2rem;
+}
+
+body {
+	max-width: 1000px;
+	border: grey solid 2px;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+form, header {
+	text-align: center;
+}
+
+button[type="submit"] {
+	border: black 2px solid;
+	/*border-radius: 50%;*/
+	padding: 4px;
+	background-color: white;
+	text-align: center;
+	width: 36px;
+}
+input[type="text"] {
+	padding: 4px;
+	padding-left: 6px;
+	padding-right: 6px;
+	width: 400px;
+}
+
+.repo-list {
+	line-height: 1.6;
+}
+
+.repo-list > ul {
+	list-style: none;
+}
+
+.repo-list-entry:not(:last-child) {
+	border-bottom: grey solid 2px;
+	margin-right: 40px;
+}
+
+legend {
+	display: none;
+}
+
+fieldset {
+	border: none;
+}
+
+.repo-name {
+	display: inline-block;
+	min-width: 250px;
+}
